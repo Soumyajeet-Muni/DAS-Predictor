@@ -1,11 +1,8 @@
 
-
-
-
 .title{
     font-family: 'Roboto Condensed';
     font-weight: bolder;
-    margin-left: 200px;
+    margin-left: 20px;
     margin-top:10px;
     color: whitesmoke;
     font-size: 50px;
@@ -15,7 +12,7 @@
     font-family: 'Roboto Condensed';
     font-weight: bolder;
      font-size: 50px; 
-     margin-left: 500px; 
+     margin-left: 20px; 
     color: antiquewhite;
     /* width: 10 rem;
     height: 10 rem; */
@@ -34,12 +31,12 @@
 .quote{
     font-size: x-large;
     color:#cbd2e1;
-    margin-left: 200px;
+    margin-left: 20px;
 }
 .quotes{
     font-size: x-large;
     color:#c4c9d2;
-    margin-left: 210px;
+    margin-left: 20px;
 }
 
 .img {
