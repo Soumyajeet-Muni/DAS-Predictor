@@ -16,7 +16,7 @@ const Home = () => {
                       </h1>
                       <div className="vec">
                       
-                      <div className="container m-4 ">
+                      <div  className="container m-4 ">
                       <img src={frontpg7} alt="frontpg3" className="img" />
                        
                       </div>
