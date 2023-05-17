@@ -1,6 +1,5 @@
 import './dashboard.css';
 import { useState } from 'react';
-// import Login from '../pages/login';
 import { useLocation } from 'react-router-dom';
 
 
@@ -101,21 +100,21 @@ function Dashboard() {
   }
   return (
     <>
-    <h1 style={{color:'#099fea',paddingLeft:'80px',paddingBottom:'0px'}}><strong>Hello {location.state.name}!! </strong>
+    <h1 style={{color:'#099fea',paddingLeft:'20px',paddingBottom:'0px'}}><strong>Hello {location.state.name}!! </strong>
     </h1>
-    <div className="App">
+    <div className="App2">
       <h1 style={{paddingLeft:'0px',color:'#099fea'}}>Welcome to the Questionnaire Portal</h1>
       <br></br>
       <br></br>
       <br></br>
-      <h2><div classname="desc" style={{color:"#099fea"}}>Please read each statement and choose a number 0, 1, 2 or 3 that indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.</div>
+      <h2><div classname="desc2" style={{color:"#099fea"}}>Please read each statement and choose a number 0, 1, 2 or 3 that indicates how much the statement applied to you over the past week. There are no right or wrong answers. Do not spend too much time on any statement.</div>
        </h2>
        <br></br>
        <br></br>
        <br></br>
            <form onSubmit={onSubmitHandler}>
-         <div className="form-group">
-          <label htmlFor="r1" className="form-label">1. I found myself getting upset by quite trivial things</label>
+         <div className="form-group2">
+          <label htmlFor="r1" className="form-label2">1. I found myself getting upset by quite trivial things</label>
           <div>
             <div>
               <input type="radio" name="r1" value="0" onChange={onChangeHandler} checked={formData.r1 === '0'} />
@@ -135,8 +134,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r2" className="form-label">2. I was aware of dryness of my mouth</label>
+        <div className="form-group2">
+          <label htmlFor="r2" className="form-label2">2. I was aware of dryness of my mouth</label>
           <div>
             <div>
               <input type="radio" name="r2" value="0" onChange={onChangeHandler} checked={formData.r2 === '0'} />
@@ -156,8 +155,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r3" className="form-label">3. I couldn’t seem to experience any positive feeling at all</label>
+        <div className="form-group2">
+          <label htmlFor="r3" className="form-label2">3. I couldn’t seem to experience any positive feeling at all</label>
           <div>
             <div>
               <input type="radio" name="r3" value="0" onChange={onChangeHandler} checked={formData.r3 === '0'} />
@@ -177,8 +176,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r4" className="form-label">4. I experienced breathing difficulty (eg, excessively rapid breathing, breathlessness in the absence of physical exertion)</label>
+        <div className="form-group2">
+          <label htmlFor="r4" className="form-label2">4. I experienced breathing difficulty (eg, excessively rapid breathing, breathlessness in the absence of physical exertion)</label>
           <div>
             <div>
               <input type="radio" name="r4" value="0" onChange={onChangeHandler} checked={formData.r4 === '0'} />
@@ -198,8 +197,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r5" className="form-label">5. I just couldn't seem to get going</label>
+        <div className="form-group2">
+          <label htmlFor="r5" className="form-label2">5. I just couldn't seem to get going</label>
           <div>
             <div>
               <input type="radio" name="r5" value="0" onChange={onChangeHandler} checked={formData.r5 === '0'} />
@@ -219,8 +218,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r6" className="form-label">6. I tended to over-react to situations</label>
+        <div className="form-group2">
+          <label htmlFor="r6" className="form-label2">6. I tended to over-react to situations</label>
           <div>
             <div>
               <input type="radio" name="r6" value="0" onChange={onChangeHandler} checked={formData.r6 === '0'} />
@@ -240,8 +239,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r7" className="form-label">7. I experienced trembling (e.g. in the hands)</label>
+        <div className="form-group2">
+          <label htmlFor="r7" className="form-label2">7. I experienced trembling (e.g. in the hands)</label>
           <div>
             <div>
               <input type="radio" name="r7" value="0" onChange={onChangeHandler} checked={formData.r7 === '0'} />
@@ -261,8 +260,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r8" className="form-label">8. I felt that I was using a lot of nervous energy</label>
+        <div className="form-group2">
+          <label htmlFor="r8" className="form-label2">8. I felt that I was using a lot of nervous energy</label>
           <div>
             <div>
               <input type="radio" name="r8" value="0" onChange={onChangeHandler} checked={formData.r8 === '0'} />
@@ -282,8 +281,8 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r9" className="form-label">9. I was worried about situations in which I might panic and make a fool
+        <div className="form-group2">
+          <label htmlFor="r9" className="form-label2">9. I was worried about situations in which I might panic and make a fool
 of myself</label>
           <div>
             <div>
@@ -304,8 +303,8 @@ of myself</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r10" className="form-label">10.  I felt that I had nothing to look forward to</label>
+        <div className="form-group2">
+          <label htmlFor="r10" className="form-label2">10.  I felt that I had nothing to look forward to</label>
           <div>
             <div>
               <input type="radio" name="r10" value="0" onChange={onChangeHandler} checked={formData.r10 === '0'} />
@@ -325,8 +324,8 @@ of myself</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r11" className="form-label">11. I found myself getting agitated</label>
+        <div className="form-group2">
+          <label htmlFor="r11" className="form-label2">11. I found myself getting agitated</label>
           <div>
             <div>
               <input type="radio" name="r11" value="0" onChange={onChangeHandler} checked={formData.r11 === '0'} />
@@ -346,8 +345,8 @@ of myself</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r12" className="form-label">12. I found it difficult to relax</label>
+        <div className="form-group2">
+          <label htmlFor="r12" className="form-label2">12. I found it difficult to relax</label>
           <div>
             <div>
               <input type="radio" name="r12" value="0" onChange={onChangeHandler} checked={formData.r12 === '0'} />
@@ -367,8 +366,8 @@ of myself</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r13" className="form-label">13. I felt down-hearted and blue</label>
+        <div className="form-group2">
+          <label htmlFor="r13" className="form-label2">13. I felt down-hearted and blue</label>
           <div>
             <div>
               <input type="radio" name="r13" value="0" onChange={onChangeHandler} checked={formData.r13 === '0'} />
@@ -388,8 +387,8 @@ of myself</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r14" className="form-label">14. I was intolerant of anything that kept me from getting on with what I
+        <div className="form-group2">
+          <label htmlFor="r14" className="form-label2">14. I was intolerant of anything that kept me from getting on with what I
 was doing </label>
           <div>
             <div>
@@ -410,8 +409,8 @@ was doing </label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r15" className="form-label">15. I felt I was close to panic </label>
+        <div className="form-group2">
+          <label htmlFor="r15" className="form-label2">15. I felt I was close to panic </label>
           <div>
             <div>
               <input type="radio" name="r15" value="0" onChange={onChangeHandler} checked={formData.r15 === '0'} />
@@ -431,8 +430,8 @@ was doing </label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r16" className="form-label">16.  I was unable to become enthusiastic about anything</label>
+        <div className="form-group2">
+          <label htmlFor="r16" className="form-label2">16.  I was unable to become enthusiastic about anything</label>
           <div>
             <div>
               <input type="radio" name="r16" value="0" onChange={onChangeHandler} checked={formData.r16 === '0'} />
@@ -452,8 +451,8 @@ was doing </label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r17" className="form-label">17. I felt I wasn't worth much as a person</label>
+        <div className="form-group2">
+          <label htmlFor="r17" className="form-label2">17. I felt I wasn't worth much as a person</label>
           <div>
             <div>
               <input type="radio" name="r17" value="0" onChange={onChangeHandler} checked={formData.r17 === '0'} />
@@ -473,8 +472,8 @@ was doing </label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r18" className="form-label">18. I felt that I was rather touchy</label>
+        <div className="form-group2">
+          <label htmlFor="r18" className="form-label2">18. I felt that I was rather touchy</label>
           <div>
             <div>
               <input type="radio" name="r18" value="0" onChange={onChangeHandler} checked={formData.r18 === '0'} />
@@ -494,8 +493,8 @@ was doing </label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r19" className="form-label">19. I was aware of the action of my heart in the absence of physical
+        <div className="form-group2">
+          <label htmlFor="r19" className="form-label2">19. I was aware of the action of my heart in the absence of physical
 exertion (e.g. sense of heart rate increase, heart missing a beat)</label>
           <div>
             <div>
@@ -516,8 +515,8 @@ exertion (e.g. sense of heart rate increase, heart missing a beat)</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r20" className="form-label">20. I felt scared without any good reason</label>
+        <div className="form-group2">
+          <label htmlFor="r20" className="form-label2">20. I felt scared without any good reason</label>
           <div>
             <div>
               <input type="radio" name="r20" value="0" onChange={onChangeHandler} checked={formData.r20 === '0'} />
@@ -537,8 +536,8 @@ exertion (e.g. sense of heart rate increase, heart missing a beat)</label>
             </div>
           </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="r21" className="form-label">21. I felt that life was meaningless </label>
+        <div className="form-group2">
+          <label htmlFor="r21" className="form-label2">21. I felt that life was meaningless </label>
           <div>
             <div>
               <input type="radio" name="r21" value="0" onChange={onChangeHandler} checked={formData.r21 === '0'} />
@@ -558,29 +557,13 @@ exertion (e.g. sense of heart rate increase, heart missing a beat)</label>
             </div>
           </div>
         </div>
-        {/* <div className="form-group">
-          <label htmlFor="gender" className="form-label">Languages</label>
-          <div>
-            <div>
-              <input type="checkbox" name="languages" value="html" onChange={onChangeHandler} checked={formData.languages.indexOf('html') !== -1} />
-              <label htmlFor="html">HTML</label>
-            </div>
-            <div>
-              <input type="checkbox" name="languages" value="css" onChange={onChangeHandler} checked={formData.languages.indexOf('css') !== -1} />
-              <label htmlFor="css">CSS</label>
-            </div>
-            <div>
-              <input type="checkbox" name="languages" value="javascript" onChange={onChangeHandler} checked={formData.languages.indexOf('javascript') !== -1} />
-              <label htmlFor="javascript">Javascript</label>
-            </div>
-          </div>
-        </div> */}
-        <div className="form-group">
-          <button className="btn" type="submit" >Predict</button>
+        
+        <div className="form-group2">
+          <button className="btn2" type="submit" >Predict</button>
         </div>
        </form>
        {tab==='1' &&
-        (<div className='result'><h1>User profile:</h1>
+        (<div className='result2'><h1>User profile:</h1>
          <div> <strong>Name : {location.state.name}</strong></div>
          <br></br>
          <div><strong>Gender :{location.state.Gender}</strong> </div>
