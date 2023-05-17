@@ -21,7 +21,7 @@ const Home = () => {
                        
                       </div>
                       <strong>
-                         <div className="quote" >"Depression Anxiety And Stress are caused when are living to please others"  </div>
+                         <div className="quote" >"Depression Anxiety And Stress are caused when we are living to please others"  </div>
                       </strong>
                       </div>
                       <br></br>
