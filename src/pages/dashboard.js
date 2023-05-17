@@ -566,9 +566,9 @@ exertion (e.g. sense of heart rate increase, heart missing a beat)</label>
         (<div className='result2'><h1>User profile:</h1>
          <div> <strong>Name : {location.state.name}</strong></div>
          <br></br>
-         <div><strong>Gender :{location.state.Gender}</strong> </div>
+         <div><strong>Gender :{location.state.gender}</strong> </div>
          <br></br>
-          <div><strong>Occupation :{location.state.Occupation}</strong></div>
+          <div><strong>Occupation :{location.state.occupation}</strong></div>
           <br></br>
           <div><strong>Depression Score : {dep}</strong></div>
           <br></br>
